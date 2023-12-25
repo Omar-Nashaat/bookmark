@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #f7ecde;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    line-height: 60px;
+    color: #352e28;
+    margin-top: 48px;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    background-color: yellow;
+    background-color: rgb(221, 158, 0);
+    position: absolute;
+    width: 265px;
+    height: 20px;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: -1;
+}
+
+h1:hover:before{
+    height: 40px;
+}
+
+.text {
+    background: linear-gradient(to right, #00ff00, #FCAAA3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.text i {
+    font-size: 24px;
+}
+
+.btn-edit {
+    width: 12%;
+    background-color: #bc4120;
+    border: #bc4120;
+    color: white;
+}
+
+.btn-edit:hover {
+    color: white;
+    background-color: rgba(147, 52, 26, 0.829)
+}
+
+.main-font {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.icons-edit i{
+    font-size: 18px;
+    color: red;
+    margin-right: 10px;
+}
+.icons-edit h5{
+    font-weight: bolder;
+}
